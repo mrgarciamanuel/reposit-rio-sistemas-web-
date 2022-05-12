@@ -1,0 +1,84 @@
+body{
+    background-color: #dddddd;
+    color:  rgba(0,0,0,1);
+}
+div#corpo{
+    width: 1000px;
+    background-color: #ffffff;
+    margin:  0px auto 0px auto;
+    box-shadow: 0px px 10px rgba(0,0,0, .5);
+    padding: 15px;
+}
+
+*{
+    margin: auto;
+    padding:  0;
+    box-sizing: border-box;
+    font-family: 'Open Sans',sans-serif;
+}
+p{
+
+    margin: 15;
+}
+
+
+#menu_h{
+	background-color: rgb(210,105,30);
+
+}
+#menu_h ul{
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+
+}
+ol{
+     margin-left: 20px;
+}
+
+#menu_h ul li {
+    display: inline;
+}
+
+#menu_h ul li a {
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+#menu_h ul li a:hover {
+    background-color: rgb(169,169,169);
+}
+#menu_h ul li:last-child a {
+    float: right;
+    background-color: rgb(169,169,169);
+}
+
+.fortaleza1{
+    width: 50%; 
+}
+
+.fortaleza2{
+    width: 50%; 
+}
+.fortaleza3{
+    width: 50%; 
+}
+.moeda1{
+    width: 50%; 
+}
+
+.moeda2{
+    width: 50%; 
+}
+
+.moeda3{
+    width: 50%; 
+}
+.palacioferro1{
+    width: 50%;
+}
+.palacioferro2{
+    width: 50%;
+}

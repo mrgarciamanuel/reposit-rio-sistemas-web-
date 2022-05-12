@@ -1,0 +1,52 @@
+
+.fortaleza1{
+	width: 50%;	
+}
+
+.fortaleza2{
+	width: 50%;	
+}
+.fortaleza3{
+	width: 50%;	
+}
+.moeda1{
+	width: 50%;	
+}
+
+.moeda2{
+	width: 50%;	
+}
+
+.moeda3{
+	width: 50%;	
+}
+.palacioferro1{
+	width: 50%;
+}
+.palacioferro2{
+	width: 50%;
+}
+.clube1{
+	width: 30%;
+}
+.clube2{
+	width: 40%;
+}
+.cidade1{
+	width: 50%;
+}
+.cidade2{
+	width: 50%;
+}
+.cidade4{
+	width: 50%;
+}
+.cidade6{
+	width: 50%;
+}
+.cidade7{
+	width: 50%;
+}
+table, th, td {
+  border:1px solid black;
+}

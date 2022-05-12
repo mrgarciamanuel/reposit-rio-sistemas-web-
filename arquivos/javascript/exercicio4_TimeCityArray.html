@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+	<h1>Temperatura de cidades</h2>
+	<p id="city"></p>
+	<script type="text/javascript">
+		
+		
+		var cidades = [];
+
+		var t1=parseInt(prompt("Digite a temperatura de Lisboa"));
+		var t2=parseInt(prompt("Digite a temperatura do Porto:"));
+		var t3=parseInt(prompt("Digite a temperatura de Madird:"));
+		var t4=parseInt(prompt("Digite a temperatura de Paris:"));
+		var t5=parseInt(prompt("Digite a temperatura de Lile:"));
+		var t6=parseInt(prompt("Digite a temperatura de Londres:"));
+		var t7=parseInt(prompt("Digite a temperatura de Manchester:"));
+		var t8=parseInt(prompt("Digite a temperatura de Berlin:"));
+		var t9=parseInt(prompt("Digite a temperatura de Braga:"));
+		var t10=parseInt(prompt("Digite a temperatura de Barcelona:"));
+		
+
+		cidades.push(t1,t2,t3,t4,t5,t6,t7,t8,t9,t10);
+
+		var media = (cidades[0]+cidades[1]+cidades[2]+cidades[3]+cidades[4]+cidades[5]+cidades[6]+cidades[7]+cidades[8]+cidades[9])/10;
+		
+		alert("A media de temperatura Lisboa, Porto, Madrid, Paris, Lile, Londres, Manchester, Berlin, Braga e Barcelona é: "+media);
+
+		document.getElementById("city").innerHTML = "A media das temperaturas é: "+ media;
+
+	</script>
+</body>
+</html>
